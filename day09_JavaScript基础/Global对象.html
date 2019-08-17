@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global对象</title>
+</head>
+<!--
+    1. 特点：全局对象，这个Global中封装的方法不需要对象就可以直接调用。  方法名();
+    2. 方法：
+        encodeURI():url编码
+        decodeURI():url解码
+
+        encodeURIComponent():url编码,编码的字符更多
+        decodeURIComponent():url解码
+
+        parseInt():将字符串转为数字
+            * 逐一判断每一个字符是否是数字，直到不是数字为止，将前边数字部分转为number
+        isNaN():判断一个值是否是NaN
+            * NaN六亲不认，连自己都不认。NaN参与的==比较全部问false
+
+        eval():讲 JavaScript 字符串，并把它作为脚本代码来执行。
+    3. URL编码
+       传智播客 =  %E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2
+-->
+<body>
+<script>
+    var str1="http://www.baidu.com?wd=传智播客";
+    var encode1=encodeURI(str1);
+    document.write(encode1+"<br>");
+    var s1=decodeURI(encode1);
+    document.write(s1+"<br>");
+
+    var str2="http://www.baidu.com?wd=传智播客";
+    var encode2=encodeURIComponent(str2);
+    document.write(encode2+"<br>");
+    var s2=decodeURIComponent(encode2);
+    document.write(s2+"<br>");
+
+    var str3="123abc";
+    var number=parseInt(str3);
+    document.write(number+1+"<br>");
+
+    var jscode="alert(123)";
+    eval(jscode);
+</script>
+</body>
+</html>

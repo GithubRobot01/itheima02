@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>扩展选择器</title>
+    <style>
+        div p{
+            color: red;
+        }
+
+        div > p{
+            border: 1px solid;
+        }
+
+        input[type="text"]{
+            border: 3px solid;
+        }
+
+        a:link{
+            color:pink;
+        }
+        a:hover{
+            color: green;
+        }
+        a:active{
+            color: red;
+        }
+        a:visited{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+<!--
+选择所有元素:
+    1.选择所有元素:
+        语法:*{}
+    2.并集选择器
+        语法:选择器1,选择器2
+    3.子选择器:筛选选择器1元素下的选择器2元素
+        语法:选择器1 选择器2 {}
+    4.父选择器:筛选选择器2的父元素选择器1
+        语法:选择器1>选择器2 {}
+    5.属性选择器:选择元素名称,属性名=属性值的元素
+        语法:元素名称[属性名="属性值"]{}
+    6. 伪类选择器：选择一些元素具有的状态
+            * 语法： 元素:状态{}
+            * 如： <a>
+                * 状态：
+                    * link：初始化的状态
+                    * visited：被访问过的状态
+                    * active：正在访问状态
+                    * hover：鼠标悬浮状态
+-->
+<!--子选择器-->
+    <div>
+        <p>黑马程序员</p>
+    </div>
+    <p>传智播客</p>
+<!--属性选择器-->
+    <input type="text">
+    <input type="password">
+<br>
+<!--伪类选择器-->
+<a href="http://ntlias-stu.boxuegu.com/#/login" target="_blank">传智播客</a>
+</body>
+</html>

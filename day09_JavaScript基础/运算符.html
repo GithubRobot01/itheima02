@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>运算符</title>
+</head>
+<body>
+    <!--
+    1. 一元运算符：只有一个运算数的运算符
+				++，-- ， +(正号)
+				* ++ --: 自增(自减)
+					* ++(--) 在前，先自增(自减)，再运算
+					* ++(--) 在后，先运算，再自增(自减)
+				* +(-)：正负号
+			    * 注意：在JS中，如果运算数不是运算符所要求的类型，那么js引擎会自动的将运算数进行类型转换
+                    * 其他类型转number：
+                        * string转number：按照字面值转换。如果字面值不是数字，则转为NaN（不是数字的数字）
+                        * boolean转number：true转为1，false转为0
+			2. 算数运算符
+				+ - * / % ...
+
+			3. 赋值运算符
+				= += -+....
+
+			4. 比较运算符
+				> < >= <= == ===(全等于)
+				* 比较方式
+                  1. 类型相同：直接比较
+                      * 字符串：按照字典顺序比较。按位逐一比较，直到得出大小为止。
+                  2. 类型不同：先进行类型转换，再比较
+                      * ===：全等于。在比较之前，先判断类型，如果类型不一样，则直接返回false
+    -->
+<script>
+    var a=+"abc";
+    document.write(a+"->"+typeof a+"<br>");
+    var a=-true;
+    document.write(a+"->"+typeof a+"<br>");
+
+    document.write("<hr>")
+
+    document.write(("abc">"acb")+"<br>");
+    document.write(("123"==123)+"<br>");
+    document.write(("123"===123)+"<br>");
+</script>
+<!--
+    5. 逻辑运算符
+				&& || !
+				* 其他类型转boolean：
+                   1. number：0或NaN为假，其他为真
+                   2. string：除了空字符串("")，其他都是true
+                   3. null&undefined:都是false
+                   4. 对象：所有对象都为true
+
+			6. 三元运算符
+				? : 表达式
+				var a = 3;
+		        var b = 4;
+
+		        var c = a > b ? 1:0;
+				* 语法：
+					* 表达式? 值1:值2;
+					* 判断表达式的值，如果是true则取值1，如果是false则取值2；
+-->
+<script>
+
+</script>
+</body>
+</html>
