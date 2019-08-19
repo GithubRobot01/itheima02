@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+</head>
+<body>
+<img id="img" src="img/banner_1.jpg" width="100%">
+<script>
+    var img = document.getElementById("img");
+    var num=2;
+    function fun() {
+        if (num==2){
+            img.src="img/banner_2.jpg";
+            num++;
+        }else if (num==3){
+            img.src="img/banner_3.jpg";
+            num=1;
+        }else{
+            img.src="img/banner_1.jpg";
+            num++;
+        }
+    }
+    var a = setInterval(fun,2000);
+    /*var a = setInterval(function(){
+        fun();
+    },2000);*/
+
+    //var a = setInterval(fun,2000);
+
+    function stop(){
+        clearInterval(a);
+    }
+
+</script>
+<input type="button" onclick="a = setInterval(fun,2000);" value="开启轮播图">
+<input type="button" onclick="stop()" value="关闭轮播图">
+</body>
+</html>

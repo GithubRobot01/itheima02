@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Location对象</title>
+</head>
+<!--
+    Location：地址栏对象
+	1. 创建(获取)：
+		1. window.location
+		2. location
+
+	2. 方法：
+		* reload()	重新加载当前文档。刷新
+	3. 属性
+		* href	设置或返回完整的 URL。
+-->
+<body>
+<input type="button" id="btn" value="刷新页面">
+<input type="button" id="bxg" value="博学谷">
+<script>
+    var btn = document.getElementById("btn");
+    btn.onclick=function () {
+        location.reload();
+    }
+
+    var href = location.href;
+    var bxg = document.getElementById("bxg");
+    bxg.onclick=function () {
+        location.href="http://ntlias-stu.boxuegu.com";
+    }
+</script>
+</body>
+</html>

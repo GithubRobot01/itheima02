@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+    <style>
+        #open{
+            border: 1px solid red;
+            width: 80px;
+            height: 31px;
+            margin-left: 500px;
+        }
+        #close{
+            border: 1px solid green;
+            width: 80px;
+            height: 31px;
+        }
+    </style>
+</head>
+<body>
+<img id="img" src="img/banner_1.jpg" width="100%">
+<script>
+    var img = document.getElementById("img");
+    //用来记录下一个图片
+    var num=2;
+    function fun(){
+        if (num>3){
+            num=1;
+        }
+        img.src="img/banner_"+num+".jpg";
+        num++;
+    }
+</script>
+<input type="button" id="open" onclick="a=setInterval(fun,2000);" value="开启轮播图">
+<input type="button" id="close" onclick="clearInterval(a);" value="关闭轮播图">
+</body>
+</html>
