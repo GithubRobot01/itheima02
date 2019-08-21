@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常见事件演示</title>
+</head>
+<!--
+	1. 点击事件：
+		1. onclick：单击事件
+		2. ondblclick：双击事件
+	2. 焦点事件
+		1. onblur：失去焦点
+		    * 一般用于表单验证
+		2. onfocus:元素获得焦点。
+	3. 加载事件：
+		1. onload：一张页面或一幅图像完成加载。
+	4. 鼠标事件：
+		1. onmousedown	鼠标按钮被按下
+		    * 定义方法时,定义一个形参,接收event对象
+		    * event对象的button属性可以获取鼠标哪个键被点击了
+		2. onmouseup	鼠标按键被松开。
+		3. onmousemove	鼠标被移动。
+		4. onmouseover	鼠标移到某元素之上。
+		5. onmouseout	鼠标从某元素移开。
+    5. 键盘事件：
+        1. onkeydown	某个键盘按键被按下。
+        2. onkeyup		某个键盘按键被松开。
+        3. onkeypress	某个键盘按键被按下并松开。
+    6. 选择和改变
+        1. onchange	域的内容被改变。
+        2. onselect	文本被选中。
+    7. 表单事件：
+        1. onsubmit	确认按钮被点击。
+        2. onreset	重置按钮被点击。
+-->
+<script>
+    window.onload=function () {
+        var username = document.getElementById("username");
+        /*username.onblur=function () {
+            alert("别走啊!")
+        }*/
+        /*username.onfocus=function () {
+            alert("别看我!")
+        }*/
+        /*username.onmouseover=function () {
+            alert("鼠标来了!")
+        }*/
+        /*username.onmousedown=function (event) {
+            alert("鼠标点击了!")
+            alert(event.button);
+        }*/
+        /*username.onkeydown=function (event) {
+            if(event.keyCode==13){
+                alert("提交表单");
+            }
+        }
+        document.getElementById("city").onchange=function () {
+            alert("内容改变了!");
+        }*/
+        /*document.getElementById("submit").onsubmit=function () {
+            //校验用户名格式是否正确
+            var flag=false;//表单不能提交
+            return flag;
+        }*/
+    }
+
+    function check() {
+        return false;
+    }
+
+</script>
+<body>
+<form action="#" method="get" onclick="return check()">
+<input id="username" type="text" name="username">
+<select id="city" name="city">
+    <option>--请选择城市--</option>
+    <option>北京</option>
+    <option>河南</option>
+    <option>湖北</option>
+</select>
+<input id="submit" type="submit" value="提交">
+</form>
+</body>
+</html>

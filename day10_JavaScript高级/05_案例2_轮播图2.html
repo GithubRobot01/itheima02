@@ -31,7 +31,25 @@
         num++;
     }
 </script>
-<input type="button" id="open" onclick="a=setInterval(fun,2000);" value="开启轮播图">
-<input type="button" id="close" onclick="clearInterval(a);" value="关闭轮播图">
+<input type="button" id="open" value="开启轮播图">
+<input type="button" id="close" value="关闭轮播图">
+<script>
+
+    var btn_open = document.getElementById("open");
+    var btn_close = document.getElementById("close");
+
+    var a;
+    btn_open.onclick=function () {
+        a=setInterval(fun,2000);
+        btn_open.disabled = true;
+        btn_close.disabled = false;
+    };
+
+    btn_close.onclick=function () {
+        clearInterval(a);
+        btn_open.disabled = false;
+        btn_close.disabled = true;
+    };
+</script>
 </body>
 </html>

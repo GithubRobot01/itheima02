@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>隔行换色</title>
+    <style>
+        li{
+            border: 1px solid gray;
+            width: 100px;
+            padding-left: 50px;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li>周星驰</li>
+    <li>朱茵</li>
+    <li>周星星</li>
+    <li>赵丽颖</li>
+    <li>张飞</li>
+    <li>赵子龙</li>
+    <li>吕布</li>
+    <li>祢衡</li>
+</ul>
+<script>
+    var lis = document.getElementsByTagName("li");
+    for (var i = 0; i < lis.length; i++) {
+        var li=lis[i];
+        if (i%2==0){
+            li.style.backgroundColor="white";
+            li.setAttribute("myColor","white");
+        } else {
+            li.style.backgroundColor="gray";
+            li.setAttribute("myColor","gray");
+        }
+
+        li.onmouseover=function () {
+            this.style.backgroundColor="red";
+        };
+        li.onmouseout=function () {
+            var color=this.getAttribute("myColor");
+            this.style.backgroundColor=color;
+        };
+    }
+
+</script>
+</body>
+</html>

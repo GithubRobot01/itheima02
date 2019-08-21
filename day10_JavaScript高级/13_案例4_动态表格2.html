@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动态表格</title>
+    <style>
+        div{
+            text-align: center;
+            margin-top: 50px;
+
+        }
+        table{
+            margin: auto;
+            width: 500px;
+            margin-top: 30px;
+            border: 1px solid;
+        }
+        th,td{
+            text-align: center;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <input type="text" id="id" placeholder="请输入编号">
+    <input type="text" id="name" placeholder="请输入姓名">
+    <input type="text" id="gender" placeholder="请输入性别">
+    <input type="button" id="btn" value="添加">
+</div>
+
+<table>
+    <caption>学生信息表</caption>
+    <tr>
+        <th>编号</th>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>操作</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>张三</td>
+        <td>男</td>
+        <td><a href="javascript:void(0);" onclick="deltr(this)">删除</a> </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>李四</td>
+        <td>男</td>
+        <td><a href="javascript:void(0);" onclick="deltr(this)">删除</a></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>秀儿</td>
+        <td>女</td>
+        <td><a href="javascript:void(0);" onclick="deltr(this)">删除</a></td>
+    </tr>
+</table>
+<script>
+    document.getElementById("btn").onclick=function () {
+        //获取文本框中的内容
+        var id = document.getElementById("id").value;
+        var name = document.getElementById("name").value;
+        var gender = document.getElementById("gender").value;
+
+        var table = document.getElementsByTagName("table")[0];
+        table.innerHTML+="<tr>\n" +
+            "        <td>"+id+"</td>\n" +
+            "        <td>"+name+"</td>\n" +
+            "        <td>"+gender+"</td>\n" +
+            "        <td><a href=\"javascript:void(0);\" onclick=\"deltr(this)\">删除</a></td>\n" +
+            "    </tr>";
+
+        /*//创建tr元素,添加信息
+        var td_id = document.createElement("td");
+        var text_id = document.createTextNode(id);
+        td_id.appendChild(text_id);
+
+        var td_name = document.createElement("td");
+        var text_name = document.createTextNode(name);
+        td_name.appendChild(text_name);
+
+        var td_gender = document.createElement("td");
+        var text_gender = document.createTextNode(gender);
+        td_gender.appendChild(text_gender);
+
+        //将a标签添加到表格
+        var td_a = document.createElement("td");
+        var a = document.createElement("a");
+        a.setAttribute("href","javascript:void(0);");
+        a.setAttribute("onclick","deltr(this)");
+        var text_a = document.createTextNode("删除");
+        a.appendChild(text_a);
+        td_a.appendChild(a);
+        //将td添加到tr
+        var tr = document.createElement("tr");
+        tr.appendChild(td_id);
+        tr.appendChild(td_name);
+        tr.appendChild(td_gender);
+        tr.appendChild(td_a);
+        var table = document.getElementsByTagName("table")[0];
+        table.appendChild(tr);*/
+    }
+
+    function deltr(obj) {
+        var tr=obj.parentNode.parentNode;
+        var table=obj.parentNode.parentNode.parentNode;
+        table.removeChild(tr);
+    }
+</script>
+</body>
+</html>

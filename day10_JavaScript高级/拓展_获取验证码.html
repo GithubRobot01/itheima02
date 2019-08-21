@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取验证码</title>
+    <style>
+        #btn{
+            border: 1px solid red;
+            width: 200px;
+            height: 31px;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+<button id="btn">获取验证码</button>
+<script>
+    //获取元素对象
+    var btn = document.getElementById("btn");
+    var second=59;
+    var time;
+    //操作元素对象(绑定点击事件)
+    btn.onclick=function () {
+        //禁用按钮
+        btn.disabled=true;
+        //开始倒计时,每秒钟执行一次程序,修改剩余描述
+        time=setInterval(fun,1000);
+    };
+
+    //每秒都会执行这个函数
+    function fun(){
+        btn.innerHTML=second+"秒后再次获取验证码";
+        if (second==0){
+            //一分钟倒计时结束后,修改按钮的状态为可用状态,并重新设置时间
+            second=60;
+            btn.innerHTML="再次获取验证码";
+            btn.disabled=false;
+            clearInterval(time);
+        }
+        second--;
+    };
+</script>
+</body>
+</html>

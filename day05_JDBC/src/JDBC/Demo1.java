@@ -6,6 +6,7 @@ import java.sql.Statement;
 
 public class Demo1 {
     public static void main(String[] args) throws Exception {
+
         //注册驱动:告诉程序该使用哪一个数据库驱动jar
         /*在com.mysql.jdbc.Driver类中存在静态代码块
          static {
