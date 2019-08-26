@@ -7,16 +7,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/RequestDemo7")
+@WebServlet("/RequestDemo9")
 public class RequestDemo9 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //解决post方式中文乱码问题
-        request.setCharacterEncoding("utf-8");
-        String username = request.getParameter("username");
-        System.out.println(username);
+        //请求转发
+        Object msg = request.getAttribute("msg");
+        System.out.println(msg);
+        System.out.println("demo9被访问了...");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        this.doPost(request,response);
     }
 }

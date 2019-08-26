@@ -1,79 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="day15_Response:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1c1bd632-922e-4097-9b85-d6fa924716c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day10_JavaScript高级/13_案例4_动态表格2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_JavaScript高级/14_HTMLDOM_innerHTML.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_JavaScript高级/15_HTMLDOM_控制样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_JavaScript高级/16_常见事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_JavaScript高级/17_案例5_表格全选.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_JavaScript高级/17_案例5_表格全选2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_JavaScript高级/18_案例6_表单提交.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_JavaScript高级/18_案例6_表单提交2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_JavaScript高级/img/gou.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_JavaScript高级/拓展_获取验证码.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_JavaScript高级/拓展_隔行换色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/01_BootStrap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/02_响应式布局_栅格系统.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/03_CSS全局样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/04_CSS全局样式2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/05_组件_导航条.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/06_组件_分页条.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/07_js插件_轮播图.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/08_案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/day11_BootStrap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/banner_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/banner_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/banner_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/footer_service.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/guonei_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/hot_tel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/hotel_tel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/icon_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/icon_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/icon_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/icon_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/icon_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/icon_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/icon_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/jiangwai_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/jiangxuan_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/jiangxuan_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/jiangxuan_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/jiangxuan_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/jiangxuan_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/jingxuan_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/img/top_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11_BootStrap/js/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day13_Servlet_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day13_Tomcat_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day14_Servlet_http_request_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day15_Response_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JsoupXpath_0_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_xml/day12_xml.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_xml/libs/JsoupXpath-0.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_xml/libs/jsoup-1.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_xml/src/DTD/student.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_xml/src/DTD/student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_xml/src/Schema/student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_xml/src/Schema/student.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_xml/src/jsoup/JsoupDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_xml/src/jsoup/JsoupDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_xml/src/jsoup/JsoupDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_xml/src/jsoup/JsoupDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_xml/src/jsoup/JsoupDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_xml/src/jsoup/Selector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_xml/src/jsoup/XPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_xml/src/student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_Servlet/day13_Servlet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_Servlet/src/web/servlet/ServletDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/day14_Servlet&amp;http&amp;request.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/servlet/ServletDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/servlet/ServletDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/servlet/ServletDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/servlet/ServletDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例/FailServlet1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例/SuccessServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例/UserDao1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例2/FailServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例2/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例2/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例2/SuccessServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例2/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例2/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/WEB-INF/lib/mchange-commons-java-0.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/login2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15_Response/day15_Response.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15_Response/src/web/servlet/CheckCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15_Response/src/web/servlet/ResponseDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15_Response/src/web/servlet/ResponseDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15_Response/src/web/servlet/ResponseDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15_Response/src/web/servlet/ResponseDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15_Response/web/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day05_JDBC/src/JDBC/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/day05_JDBC/src/JDBC/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08_CSS/综合案例/html1.html" beforeDir="false" afterPath="$PROJECT_DIR$/day08_CSS/综合案例/html1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08_CSS/综合案例/html2.html" beforeDir="false" afterPath="$PROJECT_DIR$/day08_CSS/综合案例/html2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10_JavaScript高级/05_案例2_轮播图2.html" beforeDir="false" afterPath="$PROJECT_DIR$/day10_JavaScript高级/05_案例2_轮播图2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10_JavaScript高级/08_History对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/day10_JavaScript高级/08_History对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_JavaScript基础/总结.html" beforeDir="false" afterPath="$PROJECT_DIR$/day09_JavaScript基础/总结.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_JavaScript高级/18_案例6_表单提交2.html" beforeDir="false" afterPath="$PROJECT_DIR$/day10_JavaScript高级/18_案例6_表单提交2.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,14 +96,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day11_BootStrap/08_案例.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day15_Response/src/web/servlet/ResponseDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            <state relative-caret-position="704">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day15_Response/src/web/servlet/ResponseDemo3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="17" selection-start-line="17" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day15_Response/src/web/servlet/ResponseDemo4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day15_Response/src/web/servlet/CheckCodeServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="32" column="80" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day15_Response/web/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day13_Servlet/src/web/servlet/ServletDemo1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding>
-                <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#0;n#nav#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day15_Response/src/web/servlet/ResponseDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -104,6 +167,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
+        <option value="Class" />
         <option value="HTML File" />
       </list>
     </option>
@@ -126,58 +191,77 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/img/01_DOM_获取元素对象.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/01_DOM_获取元素对象.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/02_事件绑定.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/03_案例1_电灯开关.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/03_Window对象.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/03_案例2_轮播图.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/07_案例3_自动跳转.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/09_History对象2.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/11_Element对象.html" />
-        <option value="$PROJECT_DIR$/day09_JavaScript基础/总结.html" />
-        <option value="$PROJECT_DIR$/day09_JavaScript基础/Array对象.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/10_Document对象.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/12_Node对象.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/13_案例4_动态表格.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/03_案例1_电灯开关2.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/05_案例2_轮播图.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/06_Location对象.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/07_案例3_自动跳转2.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/14_HTMLDOM.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/15_HTMLDOM_控制样式.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/常见的事件" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/05_案例2_轮播图2.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/08_History对象.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/拓展_获取验证码.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/16_常见事件.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/17_表格全选.html" />
-        <option value="$PROJECT_DIR$/day05_JDBC/src/JDBC/Demo1.java" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/17_案例5_表格全选.html" />
-        <option value="$PROJECT_DIR$/day08_CSS/综合案例/html2.html" />
-        <option value="$PROJECT_DIR$/day08_CSS/综合案例/html1.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/18_案例6_表单提交.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/13_案例4_动态表格2.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/17_案例5_表格全选2.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/18_案例6_表单提交2.html" />
-        <option value="$PROJECT_DIR$/day11_BootStrap/01_BootStrap.html" />
-        <option value="$PROJECT_DIR$/day11_BootStrap/02_BootStrap_栅格系统.html" />
-        <option value="$PROJECT_DIR$/day11_BootStrap/02_响应式布局_栅格系统.html" />
-        <option value="$PROJECT_DIR$/day11_BootStrap/03_CSS全局样式.html" />
-        <option value="$PROJECT_DIR$/day11_BootStrap/04_CSS全局样式2.html" />
-        <option value="$PROJECT_DIR$/day11_BootStrap/05_组件_导航条.html" />
-        <option value="$PROJECT_DIR$/day11_BootStrap/06_组件_分页条.html" />
-        <option value="$PROJECT_DIR$/day11_BootStrap/07_js插件_轮播图.html" />
-        <option value="$PROJECT_DIR$/day10_JavaScript高级/拓展_隔行换色.html" />
-        <option value="$PROJECT_DIR$/day11_BootStrap/08_案例.html" />
+        <option value="$PROJECT_DIR$/day12_xml/src/jsoup/JsoupDemo5.java" />
+        <option value="$PROJECT_DIR$/day12_xml/src/jsoup/JsoupDemo6.java" />
+        <option value="$PROJECT_DIR$/day12_xml/src/jsoup/Selector.java" />
+        <option value="$PROJECT_DIR$/day12_xml/src/student.xml" />
+        <option value="$PROJECT_DIR$/day12_xml/src/jsoup/XPath.java" />
+        <option value="$PROJECT_DIR$/day13_Tomcat/src/web/servlet/ServletDemo1.java" />
+        <option value="$PROJECT_DIR$/day13_Tomcat/src/web/servlet/ServletDemo2.java" />
+        <option value="$PROJECT_DIR$/day13_Tomcat/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/day13_Servlet/src/web/servlet/ServletDemo1.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/servlet/ServletDemo1.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/servlet/ServletDemo2.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/servlet/ServletDemo3.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/servlet/ServletDemo4.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo1.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo2.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo3.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo4.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/servlet/ServletDemo5.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/ServletDemo5.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo5.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/index.jsp" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo6.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/regist.html" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo7.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo8.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo9.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo10.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例/User.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例/JDBCUtils.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/druid.properties" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/WEB-INF/login2.html" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例2/JDBCUtils.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例2/User.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例/FailServlet.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例/SuccessServlet.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例/UserDao.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例2/FailServlet.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例2/UserDao.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/login.html" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/login2.html" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例2/SuccessServlet.java" />
+        <option value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例2/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/day15_Response/src/web/servlet/ServletDemo2.java" />
+        <option value="$PROJECT_DIR$/day15_Response/src/web/servlet/ServletDemo1.java" />
+        <option value="$PROJECT_DIR$/day15_Response/src/web/servlet/ResponseDemo2.java" />
+        <option value="$PROJECT_DIR$/day15_Response/src/web/servlet/ResponseDemo1.java" />
+        <option value="$PROJECT_DIR$/day15_Response/src/web/servlet/ResponseDemo3.java" />
+        <option value="$PROJECT_DIR$/day15_Response/src/web/servlet/ResponseDemo4.java" />
+        <option value="$PROJECT_DIR$/day15_Response/src/web/servlet/CheckCodeServlet.java" />
+        <option value="$PROJECT_DIR$/day15_Response/web/register.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="337" />
-    <option name="y" value="58" />
-    <option name="width" value="964" />
-    <option name="height" value="726" />
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="266" />
+    <option name="y" value="48" />
+    <option name="width" value="933" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -187,18 +271,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="itheima02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day11_BootStrap" type="462c0819:PsiDirectoryNode" />
+              <item name="day15_Response" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itheima02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day11_BootStrap" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="day15_Response" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itheima02" type="b2602c69:ProjectViewProjectNode" />
@@ -209,6 +292,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,7 +301,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day11_BootStrap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/WEB-INF/lib" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -226,21 +311,29 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.24447715" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IEDA-Workspace\itheima02\day11_BootStrap" />
-      <recent name="D:\IEDA-Workspace\itheima02\day11_BootStrap\js" />
-      <recent name="D:\IEDA-Workspace\itheima02\day10_JavaScript高级" />
-      <recent name="D:\IEDA-Workspace\itheima02\day10_JavaScript高级\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IEDA-Workspace\itheima02\day14_Servlet&amp;http&amp;request\web" />
+      <recent name="D:\IEDA-Workspace\itheima02\day12_xml\src\Schema" />
       <recent name="D:\IEDA-Workspace\itheima02\day10_JavaScript高级" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="web.servlet" />
+      <recent name="web.request" />
+      <recent name="jsoup" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IEDA-Workspace\itheima02\day14_Servlet&amp;http&amp;request\web\WEB-INF\lib" />
+      <recent name="D:\IEDA-Workspace\itheima02\day14_Servlet&amp;http&amp;request\web\WEB-INF" />
+      <recent name="D:\IEDA-Workspace\itheima02\day14_Servlet&amp;http&amp;request\src" />
+      <recent name="D:\IEDA-Workspace\itheima02\day12_xml\libs" />
+      <recent name="D:\IEDA-Workspace\itheima02\day12_xml\src\DTD" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -255,29 +348,167 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.08_案例.html">
-    <configuration name="05_组件_导航条.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/itheima02/day11_BootStrap/05_组件_导航条.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.register.html">
+    <configuration name="18_案例6_表单提交2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/itheima02/day10_JavaScript高级/18_案例6_表单提交2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="06_组件_分页条.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/itheima02/day11_BootStrap/06_组件_分页条.html" useBuiltInWebServerPort="true">
+    <configuration name="login2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/day14/login2.html">
       <method v="2" />
     </configuration>
-    <configuration name="07_js插件_轮播图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/itheima02/day11_BootStrap/07_js插件_轮播图.html" useBuiltInWebServerPort="true">
+    <configuration name="regist.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/day14/regist.html">
       <method v="2" />
     </configuration>
-    <configuration name="08_案例.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/itheima02/day11_BootStrap/08_案例.html" useBuiltInWebServerPort="true">
+    <configuration name="register.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/day15/register.html">
       <method v="2" />
     </configuration>
-    <configuration name="拓展_隔行换色.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/itheima02/day10_JavaScript高级/拓展_隔行换色.html" useBuiltInWebServerPort="true">
-      <method v="2" />
+    <configuration name="Tomcat 8.5.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="day15_Response:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/day15" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_itheima02" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54323" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="day15_Response:war exploded" />
+        </option>
+      </method>
     </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_itheima02" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54323" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.regist.html" />
+      <item itemvalue="JavaScript Debug.18_案例6_表单提交2.html" />
+      <item itemvalue="JavaScript Debug.login2.html" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
+      <item itemvalue="JavaScript Debug.register.html" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.08_案例.html" />
-        <item itemvalue="JavaScript Debug.拓展_隔行换色.html" />
-        <item itemvalue="JavaScript Debug.07_js插件_轮播图.html" />
-        <item itemvalue="JavaScript Debug.06_组件_分页条.html" />
-        <item itemvalue="JavaScript Debug.05_组件_导航条.html" />
+        <item itemvalue="JavaScript Debug.register.html" />
+        <item itemvalue="JavaScript Debug.login2.html" />
+        <item itemvalue="JavaScript Debug.18_案例6_表单提交2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -299,26 +530,39 @@
       <workItem from="1566262921644" duration="22839000" />
       <workItem from="1566301381868" duration="6509000" />
       <workItem from="1566348951522" duration="30226000" />
+      <workItem from="1566400902186" duration="1765000" />
+      <workItem from="1566435540334" duration="22447000" />
+      <workItem from="1566531044970" duration="20545000" />
+      <workItem from="1566608417016" duration="20565000" />
+      <workItem from="1566642786114" duration="5685000" />
+      <workItem from="1566659946304" duration="4629000" />
+      <workItem from="1566736420833" duration="6139000" />
+      <workItem from="1566780821100" duration="1242000" />
+      <workItem from="1566782940073" duration="6009000" />
+      <workItem from="1566790009079" duration="14866000" />
+      <workItem from="1566831812044" duration="4004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103858000" />
+    <option name="totallyTimeSpent" value="211754000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="337" y="58" width="964" height="726" extended-state="1" />
+    <frame x="266" y="48" width="933" height="788" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.057522126" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.92519087" visible="true" weight="0.03436426" />
+      <window_info id="Structure" order="1" sideWeight="0.30921054" side_tool="true" weight="0.33676976" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.074809164" side_tool="true" visible="true" weight="0.03436426" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.17068966" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17251909" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34351146" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -326,8 +570,11 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32857144" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.14611006" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.13735344" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32671756" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.5302782" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -338,241 +585,223 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68846816" visible="true" weight="0.1482602" />
+      <window_info id="Structure" order="1" sideWeight="0.30921054" side_tool="true" weight="0.33676976" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.31153184" side_tool="true" visible="true" weight="0.1482602" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.049099836" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.7253289" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32857144" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.13735344" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32894737" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.5302782" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/02_事件绑定.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/03_案例1_电灯开关.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/09_History对象2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09_JavaScript基础/Function对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09_JavaScript基础/总结.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09_JavaScript基础/Array对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/10_Document对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/11_Element对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/12_Node对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/03_案例1_电灯开关2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/04_Window对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="85" column="28" lean-forward="true" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/07_案例3_自动跳转2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/07_案例3_自动跳转.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="26" column="58" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/06_Location对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/05_案例2_轮播图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="27" selection-start-line="27" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/15_HTMLDOM_控制样式.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/常见的事件" />
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/08_History对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/14_HTMLDOM_innerHTML.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/拓展_获取验证码.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="242">
+          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/05_案例2_轮播图2.html">
+    <entry file="file://$PROJECT_DIR$/day13_Tomcat/web/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/day13_Tomcat/src/web/servlet/ServletDemo2.java" />
+    <entry file="file://$PROJECT_DIR$/day13_Tomcat/src/web/servlet/ServletDemo1.java" />
+    <entry file="file://$PROJECT_DIR$/day13_Tomcat/web/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/servlet/ServletDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="44" column="35" lean-forward="true" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_PLUGINS_DIR$/ycy-intellij-plugin.jar!/images/10.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day05_JDBC/src/JDBC/Demo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        <state relative-caret-position="264">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/servlet/ServletDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/servlet/ServletDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/servlet/ServletDemo4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/ycy-intellij-plugin.jar!/images/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/day14_Servlet&amp;http&amp;request.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" selection-start-line="24" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/regist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/web/request/RequestDemo10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="104" selection-start-line="14" selection-start-column="104" selection-end-line="14" selection-end-column="104" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day05_JDBC/src/Util/JDBCUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-242">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day08_CSS/综合案例/html2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="135" column="10" lean-forward="true" selection-start-line="135" selection-start-column="10" selection-end-line="135" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08_CSS/综合案例/html1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/16_常见事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/17_案例5_表格全选.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/13_案例4_动态表格.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1137">
-          <caret line="94" column="37" lean-forward="true" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/17_案例5_表格全选2.html">
+    <entry file="file://$PROJECT_DIR$/day06_DataSource/src/Utils/JDBCUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/18_案例6_表单提交.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="914">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/18_案例6_表单提交2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="104" column="35" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
+        <state relative-caret-position="301">
+          <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day11_BootStrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/day11_BootStrap/08_案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#0;n#nav#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day11_BootStrap/js/jquery-3.2.1.min.js">
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/druid.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11_BootStrap/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -581,98 +810,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/13_案例4_动态表格2.html">
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例2/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11_BootStrap/01_BootStrap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11_BootStrap/03_CSS全局样式.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-261">
-          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11_BootStrap/04_CSS全局样式2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11_BootStrap/06_组件_分页条.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="221">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
           <folding>
-            <element signature="e#527#534#1" expanded="true" />
-            <element signature="e#845#852#1" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day10_JavaScript高级/拓展_隔行换色.html">
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例/JDBCUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11_BootStrap/02_响应式布局_栅格系统.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="35" selection-start-line="34" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11_BootStrap/05_组件_导航条.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11_BootStrap/07_js插件_轮播图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11_BootStrap/img/jingxuan_2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11_BootStrap/img/jiangxuan_5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11_BootStrap/img/jiangxuan_4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11_BootStrap/img/jiangxuan_3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11_BootStrap/img/jiangxuan_1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11_BootStrap/img/jiangxuan_2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11_BootStrap/08_案例.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        <state relative-caret-position="286">
+          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#0;n#nav#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例/SuccessServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例2/JDBCUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例/FailServlet1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例2/FailServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例/UserDao1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例2/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/web/login2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例2/SuccessServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/ycy-intellij-plugin.jar!/images/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/src/用户登录案例2/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day15_Response/src/web/servlet/ResponseDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day15_Response/src/web/servlet/ResponseDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" selection-start-line="17" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day15_Response/src/web/servlet/ResponseDemo4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day15_Response/src/web/servlet/ResponseDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13_Servlet/src/web/servlet/ServletDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day15_Response/src/web/servlet/CheckCodeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="32" column="80" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day15_Response/web/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -682,10 +1009,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>day14_Servlet&amp;http&amp;request:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.16010499" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -693,10 +1022,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>Web (day14_Servlet&amp;http&amp;request)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.24447715" />
               </list>
             </option>
           </splitter-proportions>
@@ -715,6 +1045,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -726,12 +1057,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>day10_JavaScript高级</last-edited>
+          <last-edited>day14_Servlet&amp;http&amp;request</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.24447715" />
               </list>
             </option>
           </splitter-proportions>

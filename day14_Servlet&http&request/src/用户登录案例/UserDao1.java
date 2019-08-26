@@ -4,10 +4,7 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-import java.sql.Connection;
-import java.sql.SQLException;
-
-public class UserDao {
+public class UserDao1 {
     //声明JDBCTemplate对象共用
     private JdbcTemplate template=new JdbcTemplate(JDBCUtils.getDataSource());
 

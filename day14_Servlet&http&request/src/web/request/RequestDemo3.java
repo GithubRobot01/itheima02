@@ -8,22 +8,18 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Enumeration;
 
-@WebServlet("/RequestDemo2")
-public class RequestDemo2 extends HttpServlet {
+@WebServlet("/RequestDemo3")
+public class RequestDemo3 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //获取所有请求头名称
-        Enumeration<String> headerNames = request.getHeaderNames();
-        //遍历
-        while (headerNames.hasMoreElements()){
-            String name=headerNames.nextElement();
-            //根据名称获取请求头的值
-            String value = request.getHeader(name);
-            System.out.println(name+"->"+value);
-
+        String agent = request.getHeader("user-agent");
+        if (agent.contains("Chrome")){
+            System.out.println("谷歌浏览器");
+        }else if (agent.contains("Firefox")){
+            System.out.println("火狐浏览器");
         }
     }
 }

@@ -6,20 +6,27 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.Enumeration;
 
-@WebServlet("/RequestDemo3")
-public class RequestDemo3 extends HttpServlet {
+@WebServlet("/RequestDemo4")
+public class RequestDemo4 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String agent = request.getHeader("user-agent");
-        if (agent.contains("Chrome")){
-            System.out.println("谷歌浏览器");
-        }else if (agent.contains("Firefox")){
-            System.out.println("火狐浏览器");
+        String referer = request.getHeader("referer");
+        System.out.println(referer);
+        if (referer!=null){
+            if (referer.contains("/day14")){
+                response.setContentType("text/html;charset=utf-8");
+                response.getWriter().write("播放电影......");
+                //System.out.println("允许访问!");
+            }else {
+                //盗链
+                response.setContentType("text/html;charset=utf-8");
+                response.getWriter().write("禁止观看......");
+                //System.out.println("禁止访问!");
+            }
         }
     }
 }

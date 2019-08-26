@@ -8,20 +8,24 @@ import org.jsoup.select.Elements;
 import java.io.File;
 import java.io.IOException;
 
-public class JsoupDemo1 {
+public class JsoupDemo2 {
     public static void main(String[] args) throws IOException {
-        //获取document对象,根据xml文档获取
-        //获取student.xml的path路径
-        String path = JsoupDemo1.class.getClassLoader().getResource("student.xml").getPath();
-        //解析xml文档,加载文档进内存,获取dom树-->Document对象
-        Document doc = Jsoup.parse(new File(path), "utf-8");
-        System.out.println(doc);
-        //获取元素对象 Element
-        Elements elements = doc.getElementsByTag("name");
-        //获取第一个name的Element对象
-        Element element = elements.get(0);
-        //获取数据
-        String name = element.text();
-        System.out.println(name);
+        String str="<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n" +
+                "<students>\n" +
+                "    <student id='001'>\n" +
+                "        <name>zhangsan</name>\n" +
+                "        <age>22</age>\n" +
+                "        <gender>male</gender>\n" +
+                "    </student>\n" +
+                "    <student id='002'>\n" +
+                "        <name>lisi</name>\n" +
+                "        <age>23</age>\n" +
+                "        <gender>female</gender>\n" +
+                "    </student>\n" +
+                "</students>";
+
+        //parse​(String html)：解析xml或html字符串
+        Document document = Jsoup.parse(str);
+        System.out.println(document);
     }
 }

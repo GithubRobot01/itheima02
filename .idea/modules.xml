@@ -10,6 +10,11 @@
       <module fileurl="file://$PROJECT_DIR$/day09_JavaScript基础/day09_JavaScript基础.iml" filepath="$PROJECT_DIR$/day09_JavaScript基础/day09_JavaScript基础.iml" />
       <module fileurl="file://$PROJECT_DIR$/day10_JavaScript高级/day10_JavaScript高级.iml" filepath="$PROJECT_DIR$/day10_JavaScript高级/day10_JavaScript高级.iml" />
       <module fileurl="file://$PROJECT_DIR$/day11_BootStrap/day11_BootStrap.iml" filepath="$PROJECT_DIR$/day11_BootStrap/day11_BootStrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day12_xml/day12_xml.iml" filepath="$PROJECT_DIR$/day12_xml/day12_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13_Servlet/day13_Servlet.iml" filepath="$PROJECT_DIR$/day13_Servlet/day13_Servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13_Tomcat/day13_Tomcat.iml" filepath="$PROJECT_DIR$/day13_Tomcat/day13_Tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/day14_Servlet&amp;http&amp;request.iml" filepath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/day14_Servlet&amp;http&amp;request.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day15_Response/day15_Response.iml" filepath="$PROJECT_DIR$/day15_Response/day15_Response.iml" />
     </modules>
   </component>
 </project>

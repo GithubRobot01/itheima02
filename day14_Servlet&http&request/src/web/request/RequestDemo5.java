@@ -1,4 +1,4 @@
-package web.servlet;
+package web.request;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.BufferedReader;
 import java.io.IOException;
 
-@WebServlet("/ServletDemo5")
-public class ServletDemo5 extends HttpServlet {
+@WebServlet("/RequestDemo5")
+public class RequestDemo5 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //获取字符流
         BufferedReader br = request.getReader();

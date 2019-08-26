@@ -89,7 +89,12 @@
     window.onload=function () {
         document.getElementById("form").onsubmit=function () {
             return checkUsername()&&checkPassword();
-        }
+        };
+        /*
+        直接调用方法,而且只调用一次
+        document.getElementById("username").onblur=checkUsername();
+        */
+        /*方法的引用,每次离焦都调用方法*/
         document.getElementById("username").onblur=checkUsername;
         document.getElementById("password").onblur=checkPassword;
     };

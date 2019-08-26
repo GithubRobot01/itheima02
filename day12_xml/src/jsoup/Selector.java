@@ -8,7 +8,7 @@ import org.jsoup.select.Elements;
 import java.io.File;
 import java.io.IOException;
 
-public class JsoupDemo6 {
+public class Selector {
     public static void main(String[] args) throws IOException {
         //获取student.xml的path
         String path = JsoupDemo4.class.getClassLoader().getResource("student.xml").getPath();
