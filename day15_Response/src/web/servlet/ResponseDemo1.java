@@ -18,15 +18,16 @@ public class ResponseDemo1 extends HttpServlet {
 
         /*
 
-        //访问/responseDemo,会自动跳转到/responDemo2资源
+        //访问/responseDemo1,会自动跳转到/responDemo2资源
         //1.设置状态码为302
         response.setStatus(302);
         //设置响应头location
-        response.setHeader("location","/day15/ResponseDemo2");
+        response.setHeader("location","/day14/ResponseDemo2");
 
         */
 
-        String contextPath = request.getContextPath();
+        //获取虚拟目录
+        String contextPath = request.getContextPath(); // /day14
         //简单的重定向方法
         response.sendRedirect(contextPath+"/ResponseDemo2");
     }

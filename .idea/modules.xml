@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/day01/day01.iml" filepath="$PROJECT_DIR$/day01/day01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/case/case.iml" filepath="$PROJECT_DIR$/case/case.iml" />
       <module fileurl="file://$PROJECT_DIR$/day05_JDBC/day05_JDBC.iml" filepath="$PROJECT_DIR$/day05_JDBC/day05_JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/day06_DataSource/day06_DataSource.iml" filepath="$PROJECT_DIR$/day06_DataSource/day06_DataSource.iml" />
       <module fileurl="file://$PROJECT_DIR$/day07_HTML/day07_HTML.iml" filepath="$PROJECT_DIR$/day07_HTML/day07_HTML.iml" />
@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/day13_Tomcat/day13_Tomcat.iml" filepath="$PROJECT_DIR$/day13_Tomcat/day13_Tomcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/day14_Servlet&amp;http&amp;request.iml" filepath="$PROJECT_DIR$/day14_Servlet&amp;http&amp;request/day14_Servlet&amp;http&amp;request.iml" />
       <module fileurl="file://$PROJECT_DIR$/day15_Response/day15_Response.iml" filepath="$PROJECT_DIR$/day15_Response/day15_Response.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day16_cookie&amp;session/day16_cookie&amp;session.iml" filepath="$PROJECT_DIR$/day16_cookie&amp;session/day16_cookie&amp;session.iml" />
     </modules>
   </component>
 </project>

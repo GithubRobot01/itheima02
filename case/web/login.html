@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+    <style>
+        *{
+            margin: 5px;
+        }
+        #name{
+            border: 2px solid darkgrey;
+            padding-left: 5px;
+        }
+        #pass{
+            border: 2px solid darkgrey;
+            padding-left: 5px;
+        }
+        #btn{
+            border: 2px solid darkgrey;
+            width: 80px;
+            height: 30px;
+            margin-left: 180px;
+        }
+    </style>
+</head>
+<body>
+<form action="/case/loginServlet" method="post">
+    <label for="name">用&nbsp;户&nbsp;名:</label>
+    <input type="text" name="username" id="name" placeholder="请输入用户名">
+    <br>
+    <label for="pass">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码:</label>
+    <input type="password" name="password" id="pass" placeholder="请输入密码">
+    <br>
+    <input type="submit" id="btn">
+</form>
+</body>
+</html>
