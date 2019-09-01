@@ -12,47 +12,37 @@ import java.net.URLEncoder;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-@WebServlet("/CookieDemo5")
-public class CookieDemo5_Case extends HttpServlet {
+@WebServlet("/CookieDemo6")
+public class CookieDemo6_Case extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
         response.setContentType("text/html;charset=utf-8");
-        boolean flag=false;
+
         Cookie[] cookies = request.getCookies();
+        Cookie c=null;
         if (cookies!=null&&cookies.length>0){
             for (Cookie cookie : cookies) {
-                String name=cookie.getName();
+                String name = cookie.getName();
                 if ("lastTime".equals(name)){
-                    flag=true;
-
-                    String value = cookie.getValue();
-                    value= URLDecoder.decode(value,"utf-8");
-                    response.getWriter().write("<h1>欢迎回来!您上一次访问的时间为:"+value+"</h1>");
-
-                    SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-                    String format = sdf.format(new Date());
-
-                    format = URLEncoder.encode(format,"utf-8");
-
-                    cookie.setValue(format);
-                    cookie.setMaxAge(30);
-                    response.addCookie(cookie);
+                    c=cookie;
                     break;
                 }
             }
         }
-        if (cookies==null||cookies.length==0||flag==false){
-            SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-ddHH:mm:ss");
-            String format = sdf.format(new Date());
 
-            format= URLDecoder.decode(format,"utf-8");
-
-            Cookie c=new Cookie("lastTime",format);
-            c.setMaxAge(30);
-            response.addCookie(c);
-            response.getWriter().write("<h1>欢迎您首次访问!</h1>");
+        if (c!=null){
+            String value = c.getValue();
+            value= URLDecoder.decode(value,"utf-8");
+            response.getWriter().write("欢迎再来!您上次访问的时间为:"+value);
+        }else {
+            response.getWriter().write("欢迎新用户!");
         }
 
+        Date date=new Date();
+        SimpleDateFormat sdf=new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
+        String format = sdf.format(date);
+        format=URLEncoder.encode(format,"utf-8");
+        Cookie cookie=new Cookie("lastTime",format);
+        response.addCookie(cookie);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -36,7 +36,7 @@ public class DownloadServlet extends HttpServlet {
         //2.使用工具类方法编码文件名即可
         filename = DownLoadUtils.getFileName(agent, filename);
 
-        response.setHeader("content-disposition","attachment;filename="+filename);
+        response.setHeader("content-disposition"," ;filename="+filename);
         //4.将输入流的数据写出到输出流中
         ServletOutputStream sos = response.getOutputStream();
         int len;

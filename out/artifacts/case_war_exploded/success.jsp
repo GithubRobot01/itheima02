@@ -8,7 +8,6 @@
 <%
     User user = (User) request.getAttribute("user");
     out.write("登录成功!"+user.getUsername()+",欢迎您!");
-
 %>
 </body>
 </html>
