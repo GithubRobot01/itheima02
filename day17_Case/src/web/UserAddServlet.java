@@ -13,7 +13,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
-import java.util.List;
 import java.util.Map;
 
 @WebServlet("/userAddServlet")
@@ -35,12 +34,12 @@ public class UserAddServlet extends HttpServlet {
         }
         service.addUser(user);
 
-
-        List<User> users = service.findAll();
+        response.sendRedirect(request.getContextPath()+"/findUserByPageServlet");
+        /*List<User> users = service.findAll();
         //2.将list存入request域
         request.setAttribute("users",users);
         //转发到list.jsp
-        request.getRequestDispatcher("/list.jsp").forward(request,response);
+        request.getRequestDispatcher("/list.jsp").forward(request,response);*/
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

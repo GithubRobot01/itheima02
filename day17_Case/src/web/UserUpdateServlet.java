@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
-import java.util.List;
 import java.util.Map;
 
 @WebServlet("/userUpdateServlet")
@@ -33,9 +32,10 @@ public class UserUpdateServlet extends HttpServlet {
         UserService service=new UserServiceImpl();
         service.updateUser(user);
 
-        List<User> users = service.findAll();
+        response.sendRedirect(request.getContextPath()+"/findUserByPageServlet");
+       /* List<User> users = service.findAll();
         request.setAttribute("users",users);
-        request.getRequestDispatcher("/list.jsp").forward(request,response);
+        request.getRequestDispatcher("/list.jsp").forward(request,response);*/
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

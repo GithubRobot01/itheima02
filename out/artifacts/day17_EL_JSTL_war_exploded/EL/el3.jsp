@@ -37,7 +37,7 @@
     ${list}<br>
     ${list[0]}<br>
     ${list[1]}<br>
-    ${list[3].name}<br>
+    ${list["3"].name}<br>
 
     ${map}<br>
     ${map.gender}<br>

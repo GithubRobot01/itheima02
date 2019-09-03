@@ -1,6 +1,5 @@
 package web;
 
-import domain.User;
 import service.UserService;
 import service.UserServiceImpl;
 
@@ -10,7 +9,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.List;
 
 @WebServlet("/UserDelServlet")
 public class UserDelServlet extends HttpServlet {
@@ -19,9 +17,10 @@ public class UserDelServlet extends HttpServlet {
         UserService service=new UserServiceImpl();
         service.delUser(id);
 
-        List<User> users = service.findAll();
+        response.sendRedirect(request.getContextPath()+"/userListServlet");
+        /*List<User> users = service.findAll();
         request.setAttribute("users",users);
-        request.getRequestDispatcher("/list.jsp").forward(request,response);
+        request.getRequestDispatcher("/list.jsp").forward(request,response);*/
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
