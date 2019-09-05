@@ -5,6 +5,7 @@ import domain.PageBean;
 import domain.User;
 
 import java.util.List;
+import java.util.Map;
 
 public interface UserService {
     List<User> findAll();
@@ -21,5 +22,5 @@ public interface UserService {
 
     void delSelectedUser(String[] uids);
 
-    PageBean<User> findUserByPage(String currentPage1,String rows1);
+    PageBean<User> findUserByPage(String currentPage1, String rows1, Map<String, String[]> condition);
 }

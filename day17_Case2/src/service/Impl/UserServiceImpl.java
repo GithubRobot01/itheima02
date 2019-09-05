@@ -8,6 +8,7 @@ import domain.User;
 import service.UserService;
 
 import java.util.List;
+import java.util.Map;
 
 public class UserServiceImpl implements UserService {
     private UserDao dao=new UserDaoImpl();
@@ -52,12 +53,25 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public PageBean<User> findUserByPage(String currentPage1, String rows1) {
+    public PageBean<User> findUserByPage(String currentPage1, String rows1, Map<String, String[]> condition) {
+        //当前页码
         int currentPage=Integer.parseInt(currentPage1);
+        //每页的记录数
         int rows=Integer.parseInt(rows1);
         PageBean<User> pb=new PageBean<>();
-        int totalCount = dao.findTotalCount();
+        pb.setCurrentPage(currentPage);
+        pb.setRows(rows);
+        //总记录数
+        int totalCount = dao.findTotalCount(condition);
+        pb.setTotalCount(totalCount);
+        //总页数
+        int totalPage=(totalCount%rows)==0?(totalCount/rows):(totalCount/rows+1);
+        pb.setTotalPage(totalPage);
+        //每页的开始索引
+        int start=(currentPage-1)*rows;
+        List<User> users = dao.findByPage(start, rows,condition);
+        pb.setList(users);
 
-        return null;
+        return pb;
     }
 }

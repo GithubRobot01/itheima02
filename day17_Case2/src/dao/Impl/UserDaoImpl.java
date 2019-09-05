@@ -8,7 +8,10 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import util.JDBCUtils;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class UserDaoImpl implements UserDao {
     private JdbcTemplate template=new JdbcTemplate(JDBCUtils.getDataSource());
@@ -67,21 +70,48 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
-    public int findTotalCount() {
-        String sql="select count(*) from user";
-        Integer integer = template.queryForObject(sql, Integer.class);
+    public int findTotalCount(Map<String, String[]> condition) {
+        String sql="select count(*) from user where 1=1";
+        StringBuilder sb=new StringBuilder(sql);
+        Set<String> set = condition.keySet();
+        List<Object> params=new ArrayList<Object>();
+        for (String key : set) {
+            if ("currentPage".equals(key)||"rows".equals(key)){
+                continue;
+            }
+            String value = condition.get(key)[0];
+            if (value!=null&&!"".equals(value)){
+                sb.append(" and "+key+" like ? ");
+                params.add("%"+value+"%");
+            }
+        }
+
+        Integer integer = template.queryForObject(sb.toString(), Integer.class,params.toArray());
         return integer;
     }
 
     @Override
-    public List<User> findByPage(int start, int rows) {
-        try {
-            String sql="select * from user limit ?,?";
-            List<User> users = template.query(sql, new BeanPropertyRowMapper<User>(User.class), start, rows);
-            return users;
-        } catch (DataAccessException e) {
-            //e.printStackTrace();
-            return null;
+    public List<User> findByPage(int start, int rows, Map<String, String[]> condition) {
+        String sql="select * from user where 1=1";
+        StringBuilder sb=new StringBuilder(sql);
+        Set<String> set = condition.keySet();
+        List<Object> params=new ArrayList<Object>();
+        for (String key : set) {
+            if ("currentPage".equals(key)||"rows".equals(key)){
+                continue;
+            }
+            String value = condition.get(key)[0];
+            if (value!=null&&!"".equals(value)){
+                sb.append(" and "+key+" like ? ");
+                params.add("%"+value+"%");
+            }
         }
+        params.add(start);
+        params.add(rows);
+        sb.append(" limit ?,?");
+
+        List<User> users = template.query(sb.toString(), new BeanPropertyRowMapper<>(User.class), params.toArray());
+        return users;
     }
+
 }
