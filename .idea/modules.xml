@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/case/case.iml" filepath="$PROJECT_DIR$/case/case.iml" />
       <module fileurl="file://$PROJECT_DIR$/day05_JDBC/day05_JDBC.iml" filepath="$PROJECT_DIR$/day05_JDBC/day05_JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/day06_DataSource/day06_DataSource.iml" filepath="$PROJECT_DIR$/day06_DataSource/day06_DataSource.iml" />
@@ -20,6 +21,8 @@
       <module fileurl="file://$PROJECT_DIR$/day17_Case2/day17_Case2.iml" filepath="$PROJECT_DIR$/day17_Case2/day17_Case2.iml" />
       <module fileurl="file://$PROJECT_DIR$/day17_EL&amp;JSTL/day17_EL&amp;JSTL.iml" filepath="$PROJECT_DIR$/day17_EL&amp;JSTL/day17_EL&amp;JSTL.iml" />
       <module fileurl="file://$PROJECT_DIR$/day18_Filter&amp;Listener/day18_Filter&amp;Listener.iml" filepath="$PROJECT_DIR$/day18_Filter&amp;Listener/day18_Filter&amp;Listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day19_JQuery基础/day19_JQuery基础.iml" filepath="$PROJECT_DIR$/day19_JQuery基础/day19_JQuery基础.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day20_JQuery高级/day20_JQuery高级.iml" filepath="$PROJECT_DIR$/day20_JQuery高级/day20_JQuery高级.iml" />
     </modules>
   </component>
 </project>

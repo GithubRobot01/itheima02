@@ -15,9 +15,6 @@ public class JDBCUtils {
     private static String password;
     private static String driver;
 
-    private JDBCUtils() {
-    }
-
     //文件的读取,只需要读取一次即可拿到这些值.使用静态代码块
     static {
         try {
@@ -37,7 +34,6 @@ public class JDBCUtils {
             Class.forName(driver);
         } catch (IOException e) {
             e.printStackTrace();
-            throw new RuntimeException("初始化失败");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }

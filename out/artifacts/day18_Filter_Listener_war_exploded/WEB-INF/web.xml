@@ -14,9 +14,9 @@
         <dispatcher>REQUEST</dispatcher>
     </filter-mapping>-->
     
-    <listener>
+   <!-- <listener>
         <listener-class>web.listener.ContextLoaderListener</listener-class>
-    </listener>
+    </listener>-->
 
     <!--指定初始化参数-->
     <context-param>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动态表格</title>
+    <script src="../js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <style>
+        div{
+            text-align: center;
+            margin-top: 50px;
+
+        }
+        table{
+            margin: auto;
+            width: 500px;
+            margin-top: 30px;
+            border: 1px solid;
+        }
+        th,td{
+            text-align: center;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <input type="text" id="id" placeholder="请输入编号">
+    <input type="text" id="name" placeholder="请输入姓名">
+    <input type="text" id="gender" placeholder="请输入性别">
+    <input type="button" id="btn" value="添加">
+</div>
+
+<table>
+    <caption>学生信息表</caption>
+    <tr>
+        <th>编号</th>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>操作</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>张三</td>
+        <td>男</td>
+        <td><a href="javascript:void(0);" >删除</a> </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>李四</td>
+        <td>男</td>
+        <td><a href="javascript:void(0);" >删除</a></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>秀儿</td>
+        <td>女</td>
+        <td><a href="javascript:void(0);" >删除</a></td>
+    </tr>
+</table>
+<script type="text/javascript">
+    $(function(){
+        $("#btn").click(function () {
+            var id = $("#id").val();
+            var name = $("#name").val();
+            var gender = $("#gender").val();
+            var add="<tr>" +
+                "        <td>"+id+"</td>\n" +
+                "        <td>"+name+"</td>\n" +
+                "        <td>"+gender+"</td>\n" +
+                "        <td><a href=\"javascript:void(0);\" >删除</a> </td>" +
+                "    </tr>";
+
+            $("table").append($(add));
+
+            $("a").click(function () {
+                alert($(this).parent());
+                $(this).parent().parent().remove();
+            });
+        });
+        $("a").click(function () {
+            $(this).parent().parent().remove();
+        });
+
+    });
+
+
+</script>
+</body>
+</html>
