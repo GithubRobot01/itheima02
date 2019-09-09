@@ -4,6 +4,41 @@
     <meta charset="UTF-8">
     <title>jquery案例之抽奖</title>
     <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+
+    <script language='javascript' type='text/javascript'>
+        //准备一个一维数组，装用户的像片路径
+        var imgs = [
+            "../img/man00.jpg",
+            "../img/man01.jpg",
+            "../img/man02.jpg",
+            "../img/man03.jpg",
+            "../img/man04.jpg",
+            "../img/man05.jpg",
+            "../img/man06.jpg"
+        ];
+        var index;
+        var startId;
+        $(function () {
+            $("#stopID").prop("disabled",true);
+            $("#startID").click(function () {
+                $("#stopID").prop("disabled",false);
+                $("#startID").prop("disabled",true);
+                startId = setInterval(function () {
+                    index=Math.floor(Math.random()*7);
+                    $("#img1ID").prop("src",imgs[index]);
+                },100);
+            });
+
+            $("#stopID").click(function () {
+                $("#stopID").prop("disabled",true);
+                $("#startID").prop("disabled",false);
+                clearInterval(startId);
+                $("#img2ID").prop("src",imgs[index]).hide();
+                $("#img2ID").show(1000);
+            });
+        })
+
+    </script>
 </head>
 <body>
 
@@ -35,18 +70,5 @@
         onclick="imgStop()">
 
 
-<script language='javascript' type='text/javascript'>
-    //准备一个一维数组，装用户的像片路径
-    var imgs = [
-        "../img/man00.jpg",
-        "../img/man01.jpg",
-        "../img/man02.jpg",
-        "../img/man03.jpg",
-        "../img/man04.jpg",
-        "../img/man05.jpg",
-        "../img/man06.jpg"
-    ];
-
-</script>
 </body>
 </html>

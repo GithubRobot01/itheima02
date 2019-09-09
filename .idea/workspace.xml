@@ -2,83 +2,55 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Test:war exploded3" />
+      <artifact name="day22_Ajax&amp;Json:war exploded2" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c1bd632-922e-4097-9b85-d6fa924716c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Test_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Test_war_exploded2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Test_war_exploded3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day18_Filter&amp;Listener/src/proxy2/Lenovo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day18_Filter&amp;Listener/src/proxy2/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day18_Filter&amp;Listener/src/proxy2/SaleComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/01.隔行换色/01.隔行换色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/01.隔行换色/01.隔行换色2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/01_自定义js框架.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/02.全选和全不选/全选和全不选.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/02.全选和全不选/全选和全不选2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/02_JQuery快速入门.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/03.QQ表情选择/QQ表情选择.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/03.QQ表情选择/QQ表情选择2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/03.QQ表情选择/img/01.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/03.QQ表情选择/img/02.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/03.QQ表情选择/img/03.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/03.QQ表情选择/img/04.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/03.QQ表情选择/img/05.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/03.QQ表情选择/img/06.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/03.QQ表情选择/img/07.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/03.QQ表情选择/img/08.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/03.QQ表情选择/img/09.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/03.QQ表情选择/img/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/03.QQ表情选择/img/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/03.QQ表情选择/img/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/03_JQuery对象与js对象的转换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/04.多选下拉列表左右移动/左右移动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/04.多选下拉列表左右移动/左右移动2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/04_事件绑定.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/dom操作/01-html&amp;text&amp;val.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/dom操作/02-prop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/dom操作/03-class&amp;css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/dom操作/04-create&amp;append.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/dom操作/05-remove.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/js/itcast.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/选择器/01-基本选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/选择器/02-属性选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/选择器/03-层级选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/选择器/04-过滤选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_JQuery基础/选择器/05-表单过滤选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/01-jquery动画/01-显示隐藏动画.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/02-jquery遍历/01-遍历.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/03-jquery事件绑定与解绑/01-绑定事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/03-jquery事件绑定与解绑/02-on绑定事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/03-jquery事件绑定与解绑/03-事件切换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/04-jQuery综合案例/广告的自动显示与隐藏.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/04-jQuery综合案例/抽奖.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/05-jQuery的插件/01-jQuery对象进行方法扩展.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/05-jQuery的插件/02-jQuery全局进行方法扩展.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/day20_JQuery高级.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/img/adv.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/img/man00.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/img/man01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/img/man02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/img/man03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/img/man04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/img/man05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/img/man06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/js/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/js/jquery-migrate-1.0.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/案例_动态表格.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day22_Ajax_Json_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day22_Ajax_Json_war_exploded2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day23_redis_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__6_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__7_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/04-jQuery综合案例/广告的自动显示与隐藏2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_JQuery高级/04-jQuery综合案例/抽奖2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/day22_Ajax&amp;Json.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/src/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/src/test/JacksonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/src/web/servlet/AjaxServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/src/web/servlet/FindUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/web/01_原生js实现ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/web/02_JQuery实现方式1_ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/web/03_JQuery实现方式2_get.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/web/04_JQuery实现方式3_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/web/05_Json数据语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/web/06_Json数据语法_遍历.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/web/07_regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/web/08_regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/web/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/web/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/web/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/web/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/web/WEB-INF/lib/junit.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/web/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/web/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_Ajax&amp;Json/web/js/jquery-migrate-1.0.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23_redis/day23_redis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23_redis/src/jedis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23_redis/src/jedis/test/JedisPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23_redis/src/jedis/test/JedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23_redis/src/jedis/util/JedisPoolUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23_redis/web/WEB-INF/lib/commons-pool2-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23_redis/web/WEB-INF/lib/jedis-2.7.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day05_JDBC/src/JDBC/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/day05_JDBC/src/JDBC/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day05_JDBC/src/Util/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/day05_JDBC/src/Util/JDBCUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10_JavaScript高级/13_案例4_动态表格2.html" beforeDir="false" afterPath="$PROJECT_DIR$/day10_JavaScript高级/13_案例4_动态表格2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/day18_Filter_Listener_war_exploded/WEB-INF/classes/web/listener/ContextLoaderListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day18_Filter_Listener_war_exploded/WEB-INF/classes/web/listener/ContextLoaderListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/day18_Filter_Listener_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day18_Filter_Listener_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day18_Filter&amp;Listener/web/listener/ContextLoaderListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day18_Filter&amp;Listener/web/listener/ContextLoaderListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20_JQuery高级/案例_动态表格.html" beforeDir="false" afterPath="$PROJECT_DIR$/day20_JQuery高级/案例_动态表格.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/Servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/test1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/test2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Servlet.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,23 +67,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day20_JQuery高级/01-jquery动画/01-显示隐藏动画.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day23_redis/src/jedis/test/JedisPoolDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="107">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day22_Ajax&amp;Json/web/08_regist.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day23_redis/src/jedis/util/JedisPoolUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day20_JQuery高级/02-jquery遍历/01-遍历.html">
+        <entry file="file://$PROJECT_DIR$/day23_redis/src/jedis.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="66">
+              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -126,8 +121,8 @@
         <option value="FxmlFile" />
         <option value="Jsp File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -136,11 +131,14 @@
       <find>id</find>
       <find>name</find>
       <find>上海飞三亚五天四晚自由行(春节销售+亲子+蜜月+自由行)</find>
+      <find>p</find>
     </findStrings>
     <replaceStrings>
       <replace>gender</replace>
       <replace>pass</replace>
       <replace>上海直飞三亚5天4晚自由行(春节销售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</replace>
+      <replace>p2</replace>
+      <replace>p3</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -152,27 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day18_Filter&amp;Listener/src/web/filter/FilterDemo6.java" />
-        <option value="$PROJECT_DIR$/day17_Case2/src/web/filter/LoginFilter.java" />
-        <option value="$PROJECT_DIR$/day18_Filter&amp;Listener/src/proxy/SaleComputer.java" />
-        <option value="$PROJECT_DIR$/day18_Filter&amp;Listener/src/proxy/Lenovo.java" />
-        <option value="$PROJECT_DIR$/day18_Filter&amp;Listener/src/proxy/ProxyTest.java" />
-        <option value="$PROJECT_DIR$/day17_Case2/src/敏感词汇.txt" />
-        <option value="$PROJECT_DIR$/day17_Case2/src/web/servlet/TestServlet.java" />
-        <option value="$PROJECT_DIR$/day18_Filter&amp;Listener/src/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/day18_Filter&amp;Listener/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/day18_Filter&amp;Listener/src/web/listener/ContextLoaderListener.java" />
-        <option value="$PROJECT_DIR$/day05_JDBC/src/JDBC/Demo1.java" />
-        <option value="$PROJECT_DIR$/day05_JDBC/src/Util/JDBCUtils.java" />
-        <option value="$PROJECT_DIR$/day19_JQuery基础/js/itcast.js" />
-        <option value="$PROJECT_DIR$/Test/src/Servlet.java" />
-        <option value="$PROJECT_DIR$/Test/web/test2.jsp" />
-        <option value="$PROJECT_DIR$/Test/web/test1.jsp" />
-        <option value="$PROJECT_DIR$/day19_JQuery基础/01_自定义js框架.html" />
-        <option value="$PROJECT_DIR$/day19_JQuery基础/02_JQuery快速入门.html" />
-        <option value="$PROJECT_DIR$/day19_JQuery基础/03_JQuery对象与js对象的转换.html" />
-        <option value="$PROJECT_DIR$/day19_JQuery基础/04_事件绑定.html" />
-        <option value="$PROJECT_DIR$/day19_JQuery基础/选择器/01-基本选择器.html" />
         <option value="$PROJECT_DIR$/day19_JQuery基础/选择器/03-层级选择器.html" />
         <option value="$PROJECT_DIR$/day19_JQuery基础/选择器/02-属性选择器.html" />
         <option value="$PROJECT_DIR$/day19_JQuery基础/选择器/04-过滤选择器.html" />
@@ -198,11 +175,32 @@
         <option value="$PROJECT_DIR$/day20_JQuery高级/04-jQuery综合案例/抽奖.html" />
         <option value="$PROJECT_DIR$/day20_JQuery高级/05-jQuery的插件/01-jQuery对象进行方法扩展.html" />
         <option value="$PROJECT_DIR$/day10_JavaScript高级/13_案例4_动态表格2.html" />
-        <option value="$PROJECT_DIR$/day20_JQuery高级/案例_动态表格.html" />
         <option value="$PROJECT_DIR$/day19_JQuery基础/01.隔行换色/01.隔行换色2.html" />
         <option value="$PROJECT_DIR$/day19_JQuery基础/02.全选和全不选/全选和全不选2.html" />
         <option value="$PROJECT_DIR$/day19_JQuery基础/03.QQ表情选择/QQ表情选择2.html" />
         <option value="$PROJECT_DIR$/day19_JQuery基础/04.多选下拉列表左右移动/左右移动2.html" />
+        <option value="$PROJECT_DIR$/day20_JQuery高级/04-jQuery综合案例/广告的自动显示与隐藏2.html" />
+        <option value="$PROJECT_DIR$/day20_JQuery高级/04-jQuery综合案例/抽奖2.html" />
+        <option value="$PROJECT_DIR$/day20_JQuery高级/案例_动态表格.html" />
+        <option value="$PROJECT_DIR$/day21_Ajax&amp;Json/web/js/jquery-3.3.1.js" />
+        <option value="$PROJECT_DIR$/day21_Ajax&amp;Json/web/01_原生js实现ajax.html" />
+        <option value="$PROJECT_DIR$/day22_Ajax&amp;Json/web/01_原生js实现ajax.html" />
+        <option value="$PROJECT_DIR$/day22_Ajax&amp;Json/src/web/servlet/AjaxServlet.java" />
+        <option value="$PROJECT_DIR$/day22_Ajax&amp;Json/web/02_JQuery实现方式1_ajax.html" />
+        <option value="$PROJECT_DIR$/day22_Ajax&amp;Json/web/03_JQuery实现方式2_get.html" />
+        <option value="$PROJECT_DIR$/day22_Ajax&amp;Json/web/04_JQuery实现方式3_post.html" />
+        <option value="$PROJECT_DIR$/day22_Ajax&amp;Json/web/05_Json数据语法.html" />
+        <option value="$PROJECT_DIR$/day22_Ajax&amp;Json/web/06_Json数据语法_遍历.html" />
+        <option value="$PROJECT_DIR$/day22_Ajax&amp;Json/src/domain/Person.java" />
+        <option value="$PROJECT_DIR$/day22_Ajax&amp;Json/src/web/servlet/FindUserServlet.java" />
+        <option value="$PROJECT_DIR$/day22_Ajax&amp;Json/web/07_regist.html" />
+        <option value="$PROJECT_DIR$/day22_Ajax&amp;Json/src/test/JacksonTest.java" />
+        <option value="$PROJECT_DIR$/day23_redis/src/jedis/test/JedisTest.java" />
+        <option value="$PROJECT_DIR$/day23_redis/src/jedis/test/JedisPool.java" />
+        <option value="$PROJECT_DIR$/day23_redis/src/jedis/util/JedisPoolUtils.java" />
+        <option value="$PROJECT_DIR$/day23_redis/src/jedis/util/jedisPoolUtils.java" />
+        <option value="$PROJECT_DIR$/day23_redis/src/jedis/test/JedisPoolDemo.java" />
+        <option value="$PROJECT_DIR$/day22_Ajax&amp;Json/web/08_regist.html" />
       </list>
     </option>
   </component>
@@ -218,11 +216,11 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="384" />
-    <option name="y" value="161" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="219" />
+    <option name="y" value="352" />
     <option name="width" value="914" />
-    <option name="height" value="788" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -232,32 +230,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="itheima02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day20_JQuery高级" type="462c0819:PsiDirectoryNode" />
+              <item name="day22_Ajax&amp;Json" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itheima02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day20_JQuery高级" type="462c0819:PsiDirectoryNode" />
-              <item name="01-jquery动画" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itheima02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day20_JQuery高级" type="462c0819:PsiDirectoryNode" />
-              <item name="02-jquery遍历" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itheima02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day20_JQuery高级" type="462c0819:PsiDirectoryNode" />
-              <item name="05-jQuery的插件" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itheima02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day20_JQuery高级" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="day22_Ajax&amp;Json" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itheima02" type="b2602c69:ProjectViewProjectNode" />
@@ -267,18 +252,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day20_JQuery高级/01-jquery动画" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day23_redis/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -295,12 +282,12 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IEDA-Workspace\itheima02\day20_JQuery高级\01-jquery动画" />
-      <recent name="D:\IEDA-Workspace\itheima02\day19_JQuery基础\04.多选下拉列表左右移动" />
-      <recent name="D:\IEDA-Workspace\itheima02\day19_JQuery基础\03.QQ表情选择" />
-      <recent name="D:\IEDA-Workspace\itheima02\day19_JQuery基础\02.全选和全不选" />
-      <recent name="D:\IEDA-Workspace\itheima02\day19_JQuery基础\01.隔行换色" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IEDA-Workspace\itheima02\day22_Ajax&amp;Json\web" />
+      <recent name="D:\IEDA-Workspace\itheima02\day22_Ajax&amp;Json\src" />
+      <recent name="D:\IEDA-Workspace\itheima02\day17_Case2\web" />
+      <recent name="D:\IEDA-Workspace\itheima02\case\web" />
+      <recent name="D:\IEDA-Workspace\itheima02\day14_Servlet&amp;http&amp;request\web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cookie" />
@@ -309,12 +296,12 @@
       <recent name="session" />
       <recent name="web.servletcontext" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IEDA-Workspace\itheima02\day17_Case2\web" />
-      <recent name="D:\IEDA-Workspace\itheima02\case\web" />
-      <recent name="D:\IEDA-Workspace\itheima02\day14_Servlet&amp;http&amp;request\web" />
-      <recent name="D:\IEDA-Workspace\itheima02\day12_xml\src\Schema" />
-      <recent name="D:\IEDA-Workspace\itheima02\day10_JavaScript高级" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IEDA-Workspace\itheima02\day23_redis\src" />
+      <recent name="D:\IEDA-Workspace\itheima02\day23_redis\web\WEB-INF\lib" />
+      <recent name="D:\IEDA-Workspace\itheima02\day22_Ajax&amp;Json\web\WEB-INF\lib" />
+      <recent name="D:\IEDA-Workspace\itheima02\day22_Ajax&amp;Json\web" />
+      <recent name="D:\IEDA-Workspace\itheima02\day21_Ajax&amp;Json\web\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -329,54 +316,93 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.31">
-    <configuration name="ForEachFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ForEachFile" />
-      <module name="case" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProxyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="proxy2.ProxyTest" />
-      <module name="day18_Filter&amp;Listener" />
+  <component name="RunManager" selected="JUnit.JedisPoolDemo.utilTest">
+    <configuration name="JedisPoolDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day23_redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="proxy2.*" />
+          <option name="PATTERN" value="jedis.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="jedis.test" />
+      <option name="MAIN_CLASS_NAME" value="jedis.test.JedisPoolDemo" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="proxy.ProxyTest" />
-      <module name="day18_Filter&amp;Listener" />
+    <configuration name="JedisPoolDemo.utilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day23_redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="proxy.*" />
+          <option name="PATTERN" value="jedis.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="jedis.test" />
+      <option name="MAIN_CLASS_NAME" value="jedis.test.JedisPoolDemo" />
+      <option name="METHOD_NAME" value="utilTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="login2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/day14/login2.html">
-      <method v="2" />
+    <configuration name="JedisTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day23_redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jedis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jedis.test" />
+      <option name="MAIN_CLASS_NAME" value="jedis.test.JedisTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="register.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/day15/register.html">
-      <method v="2" />
+    <configuration name="JedisTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day23_redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jedis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jedis.test" />
+      <option name="MAIN_CLASS_NAME" value="jedis.test.JedisTest" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day23_redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jedis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jedis.test" />
+      <option name="MAIN_CLASS_NAME" value="jedis.test.JedisTest" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Tomcat 8.5.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/test/" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="day18_Filter&amp;Listener:war exploded">
+        <artifact name="day23_redis:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/day18" />
+            <option name="CONTEXT_PATH" value="/day23_redis_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -439,7 +465,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="day18_Filter&amp;Listener:war exploded" />
+          <artifact name="day23_redis:war exploded" />
         </option>
       </method>
     </configuration>
@@ -507,20 +533,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ForEachFile" />
-      <item itemvalue="Application.ProxyTest" />
-      <item itemvalue="Application.ProxyTest (1)" />
-      <item itemvalue="JavaScript Debug.login2.html" />
-      <item itemvalue="JavaScript Debug.register.html" />
+      <item itemvalue="JUnit.JedisTest.test4" />
+      <item itemvalue="JUnit.JedisTest.test5" />
+      <item itemvalue="JUnit.JedisTest.test6" />
+      <item itemvalue="JUnit.JedisPoolDemo.test" />
+      <item itemvalue="JUnit.JedisPoolDemo.utilTest" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProxyTest (1)" />
-        <item itemvalue="Application.ProxyTest" />
-        <item itemvalue="Application.ForEachFile" />
-        <item itemvalue="JavaScript Debug.register.html" />
-        <item itemvalue="JavaScript Debug.login2.html" />
+        <item itemvalue="JUnit.JedisPoolDemo.utilTest" />
+        <item itemvalue="JUnit.JedisPoolDemo.test" />
+        <item itemvalue="JUnit.JedisTest.test6" />
+        <item itemvalue="JUnit.JedisTest.test5" />
+        <item itemvalue="JUnit.JedisTest.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -574,41 +600,77 @@
       <workItem from="1567845717018" duration="596000" />
       <workItem from="1567846453531" duration="13564000" />
       <workItem from="1567868024649" duration="814000" />
-      <workItem from="1567904151065" duration="21758000" />
+      <workItem from="1567904151065" duration="22010000" />
+      <workItem from="1567947804895" duration="5766000" />
+      <workItem from="1568002519567" duration="1552000" />
+      <workItem from="1568004900541" duration="538000" />
+      <workItem from="1568005490816" duration="25282000" />
+      <workItem from="1568041462575" duration="2262000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="JedisTest_test6 - 2019.09.09 at 21h 01m 12s.xml">
+      <configuration name="JedisTest.test6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisPoolDemo_test - 2019.09.09 at 21h 16m 34s.xml">
+      <configuration name="JedisPoolDemo.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisPoolDemo_utilTest - 2019.09.09 at 21h 48m 41s.xml">
+      <configuration name="JedisPoolDemo.utilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisPoolDemo_utilTest - 2019.09.09 at 21h 54m 06s.xml">
+      <configuration name="JedisPoolDemo.utilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisPoolDemo_utilTest - 2019.09.09 at 21h 56m 46s.xml">
+      <configuration name="JedisPoolDemo.utilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisPoolDemo_utilTest - 2019.09.09 at 22h 00m 49s.xml">
+      <configuration name="JedisPoolDemo.utilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisPoolDemo_utilTest - 2019.09.09 at 22h 04m 55s.xml">
+      <configuration name="JedisPoolDemo.utilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisPoolDemo_utilTest - 2019.09.09 at 22h 06m 39s.xml">
+      <configuration name="JedisPoolDemo.utilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisPoolDemo_utilTest - 2019.09.09 at 23h 11m 27s.xml">
+      <configuration name="JedisPoolDemo.utilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisPoolDemo_utilTest - 2019.09.09 at 23h 11m 56s.xml">
+      <configuration name="JedisPoolDemo.utilTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="537693000" />
+    <option name="totallyTimeSpent" value="573345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8363636" visible="true" weight="0.19894099" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.83476764" visible="true" weight="0.33661118" />
       <window_info id="Structure" order="1" sideWeight="0.30921054" side_tool="true" weight="0.33676976" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.16363636" side_tool="true" weight="0.1429652" />
+      <window_info id="Web" order="7" sideWeight="0.1658031" side_tool="true" weight="0.15506808" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.47848538" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.05199307" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.47734627" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882904" weight="0.20785597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.14590748" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32874355" />
-      <window_info anchor="bottom" id="Spring" order="9" weight="0.32857144" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32733223" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.50606585" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.39770868" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.31751227" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4680851" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50117093" side_tool="true" weight="0.4339934" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.22258593" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.5302782" />
-      <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.32857144" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.32733223" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -699,178 +761,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day19_JQuery基础/02_JQuery快速入门.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day19_JQuery基础/03_JQuery对象与js对象的转换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_PLUGINS_DIR$/ycy-intellij-plugin.jar!/images/2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$APPLICATION_PLUGINS_DIR$/ycy-intellij-plugin.jar!/images/6.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day19_JQuery基础/选择器/01-基本选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day19_JQuery基础/选择器/03-层级选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day19_JQuery基础/选择器/02-属性选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day19_JQuery基础/选择器/04-过滤选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day19_JQuery基础/选择器/05-表单过滤选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-234">
-          <caret line="51" column="61" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day18_Filter&amp;Listener/src/proxy2/SaleComputer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day18_Filter&amp;Listener/src/proxy2/Lenovo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day18_Filter&amp;Listener/src/proxy/ProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day18_Filter&amp;Listener/src/proxy2/ProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day19_JQuery基础/dom操作/01-html&amp;text&amp;val.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day19_JQuery基础/dom操作/02-prop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="2505" column="4" selection-start-line="2505" selection-start-column="4" selection-end-line="2505" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day19_JQuery基础/dom操作/03-class&amp;css.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="74" selection-start-line="73" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day19_JQuery基础/dom操作/04-create&amp;append.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/js/jquery-3.3.1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day17_Case2/src/web/servlet/TestServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day17_Case2/src/web/filter/SensitiveWordsFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/03-jquery事件绑定与解绑/01-绑定事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/03-jquery事件绑定与解绑/02-on绑定事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/js/jquery-migrate-1.0.0.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/03-jquery事件绑定与解绑/03-事件切换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day20_JQuery高级/img/man06.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -891,27 +781,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day20_JQuery高级/img/man00.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/04-jQuery综合案例/广告的自动显示与隐藏.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/04-jQuery综合案例/抽奖.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day20_JQuery高级/05-jQuery的插件/02-jQuery全局进行方法扩展.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -941,13 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1642">
           <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/案例_动态表格.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1010,23 +872,257 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/01-jquery动画/01-显示隐藏动画2.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/01-jquery动画/01-显示隐藏动画2.html" />
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/ycy-intellij-plugin.jar!/images/4.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/02-jquery遍历/01-遍历.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/ycy-intellij-plugin.jar!/images/10.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/day20_JQuery高级/01-jquery动画/01-显示隐藏动画.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="396">
           <caret line="18" column="32" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="32" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/03-jquery事件绑定与解绑/02-on绑定事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/03-jquery事件绑定与解绑/03-事件切换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/04-jQuery综合案例/广告的自动显示与隐藏2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/04-jQuery综合案例/抽奖2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/04-jQuery综合案例/抽奖.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/04-jQuery综合案例/广告的自动显示与隐藏.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/02-jquery遍历/01-遍历.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/03-jquery事件绑定与解绑/01-绑定事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day20_JQuery高级/案例_动态表格.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day22_Ajax&amp;Json/web/js/jquery-3.3.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day22_Ajax&amp;Json/web/js/jquery-migrate-1.0.0.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day22_Ajax&amp;Json/web/01_原生js实现ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day22_Ajax&amp;Json/web/04_JQuery实现方式3_post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day22_Ajax&amp;Json/web/06_Json数据语法_遍历.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day22_Ajax&amp;Json/web/05_Json数据语法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day22_Ajax&amp;Json/web/02_JQuery实现方式1_ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day22_Ajax&amp;Json/src/domain/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day22_Ajax&amp;Json/web/03_JQuery实现方式2_get.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day22_Ajax&amp;Json/web/07_regist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#input#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day22_Ajax&amp;Json/src/web/servlet/FindUserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day22_Ajax&amp;Json/src/web/servlet/AjaxServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day22_Ajax&amp;Json/src/test/JacksonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day23_redis/src/jedis/test/JedisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="72" column="35" lean-forward="true" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day23_redis/src/jedis/util/JedisPoolUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day23_redis/src/jedis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day23_redis/src/jedis/test/JedisPoolDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day22_Ajax&amp;Json/web/08_regist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1083,7 +1179,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>day19_JQuery基础</last-edited>
+          <last-edited>day23_redis</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
