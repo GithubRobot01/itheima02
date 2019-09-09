@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+        function fun() {
+            //使用$.ajax方式发送异步请求
+            $.ajax({
+                url:"ajaxServlet",
+                type:"POST",
+                //data:"username=jack&age=23",
+                data:{"username":"jack","age":23},
+                success:function (data) {
+                    //data接收服务器的响应
+                    alert(data);
+                }, //响应成功后的回调函数
+                error:function () {
+                    alert("出现错误!");
+                },
+                dataType:"text"
+            });
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="发送异步请求" onclick="fun();">
+    <input>
+</body>
+</html>
