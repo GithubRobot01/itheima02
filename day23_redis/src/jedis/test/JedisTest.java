@@ -14,18 +14,17 @@ public class JedisTest {
     @Test
     public void test1(){
         //获取连接
-        Jedis jedis=new Jedis("localhost", 6379);
-        jedis.set("username","zhangsan");
+        Jedis jedis=new Jedis();
+        jedis.set("username","wqs");
+        String username = jedis.get("username");
+        System.out.println(username);
         jedis.close();
     }
     @Test
     public void test2(){
         //String数据结构操作
         Jedis jedis=new Jedis();
-        jedis.set("username","zhangsan");
-        String username = jedis.get("username");
-        jedis.setex("hsg",20,"hsg");
-        System.out.println(username);
+        jedis.setex("code",20,"643925");
         jedis.close();
     }
     @Test
@@ -33,12 +32,13 @@ public class JedisTest {
         //获取连接
         Jedis jedis=new Jedis();
         jedis.hset("user","name","wqs");
-        jedis.hset("user","pass","123456");
         jedis.hset("user","age","23");
+        jedis.hset("user","gender","male");
         Map<String, String> map = jedis.hgetAll("user");
         Set<String> set = map.keySet();
-        for (String s : set) {
-            System.out.println(s+"->"+map.get(s));
+        for (String key : set) {
+            String value=map.get(key);
+            System.out.println(key+"->"+value);
         }
         jedis.close();
     }
@@ -46,11 +46,10 @@ public class JedisTest {
     public void test4(){
         //获取连接
         Jedis jedis=new Jedis();
-        jedis.lpush("mylist","2","1");
-        jedis.rpush("mylist","3");
-        List<String> mylist = jedis.lrange("mylist", 0, -1);
-        System.out.println(mylist);
-        System.out.println(jedis.lpop("mylist"));
+        jedis.lpush("list","a","b","c");
+        jedis.rpush("list","a","b","c");
+        List<String> list = jedis.lrange("list", 0, -1);
+        System.out.println(list);
         jedis.close();
     }
     @Test

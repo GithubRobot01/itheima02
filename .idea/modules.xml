@@ -24,6 +24,8 @@
       <module fileurl="file://$PROJECT_DIR$/day20_JQuery高级/day20_JQuery高级.iml" filepath="$PROJECT_DIR$/day20_JQuery高级/day20_JQuery高级.iml" />
       <module fileurl="file://$PROJECT_DIR$/day22_Ajax&amp;Json/day22_Ajax&amp;Json.iml" filepath="$PROJECT_DIR$/day22_Ajax&amp;Json/day22_Ajax&amp;Json.iml" />
       <module fileurl="file://$PROJECT_DIR$/day23_redis/day23_redis.iml" filepath="$PROJECT_DIR$/day23_redis/day23_redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel/travel.iml" filepath="$PROJECT_DIR$/travel/travel.iml" />
     </modules>
   </component>
 </project>

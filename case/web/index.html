@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>省份选择</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+        $(function () {
+            $.get("findProvinceServlet",function (data) {
+
+                var province = $("#province");
+                $(data).each(function () {
+                    //data的每个元素都是一个json对象
+                    var p="<option id='"+this.id+"'>"+this.name+"</option>";
+                    province.append(p);
+                })
+            })
+        })
+    </script>
+</head>
+<body>
+    <select id="province" >
+        <option>--请选择省份--</option>
+    </select>
+</body>
+</html>
